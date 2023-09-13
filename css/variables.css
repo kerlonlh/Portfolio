@@ -9,5 +9,7 @@
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
 
+  --sombra-primary: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+
   --font-family: 'DM Sans', sans-serif;
 }

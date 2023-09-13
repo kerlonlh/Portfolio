@@ -12,6 +12,14 @@
     justify-content: space-between;
 }
 
+.navbar .navbar__content a img{
+    width: 8rem;
+    box-shadow: var(--sombra-primary);
+    border-radius: 50%;
+    padding: 1rem;
+    top: -01rem;
+}
+
 .navbar .navbar__content .navbar__links li{
     display: inline-block;
 }
