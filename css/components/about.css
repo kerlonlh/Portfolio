@@ -23,10 +23,10 @@
     padding: 1rem;
     
 }
-.logo__github{
-    padding-bottom: 1.5px;
-    
+.about .about__left ul li img{
+    width: 32px;
 }
+
 .about .about__right{
     flex: 1;
     max-width: 66rem;

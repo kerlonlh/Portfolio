@@ -17,6 +17,9 @@ footer .footer__content ul a{
     display: inline-block;
     padding: 1rem;
 }
+footer .footer__content ul li img{
+    width: 32px;
+}
 footer .footer__content .footer__copyright{
     font-size: 1.4rem;
 }
