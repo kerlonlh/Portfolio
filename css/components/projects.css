@@ -1,0 +1,9 @@
+.projects{
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+.projects .projects__container{
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
