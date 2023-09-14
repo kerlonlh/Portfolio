@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-.navbar .navbar__content a img{
+.navbar .navbar__content img{
     width: 20rem;
     box-shadow: var(--sombra-primary);
 }
