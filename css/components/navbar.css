@@ -13,11 +13,8 @@
 }
 
 .navbar .navbar__content a img{
-    width: 6rem;
+    width: 20rem;
     box-shadow: var(--sombra-primary);
-    border-radius: 50%;
-    padding: 1rem;
-    top: -1rem;
 }
 
 .navbar .navbar__content .navbar__links li{
