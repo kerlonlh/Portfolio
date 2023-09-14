@@ -69,6 +69,7 @@ p:not(:last-of-type),
   color: var(--white);
   font-weight: 400;
   font-size: 1.4rem;
+  
 }
 
 .max-width {

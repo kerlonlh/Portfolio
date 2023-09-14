@@ -14,6 +14,9 @@ header .header__left p{
     margin-bottom: 4rem;
     max-width: 50rem;
 }
+header .header__left a:hover{
+    color: var(--tertiary-color);
+}
 header .header__right .header__image{
     position: relative;
     line-height: 0;
