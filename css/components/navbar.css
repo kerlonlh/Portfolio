@@ -13,11 +13,11 @@
 }
 
 .navbar .navbar__content a img{
-    width: 8rem;
+    width: 6rem;
     box-shadow: var(--sombra-primary);
     border-radius: 50%;
     padding: 1rem;
-    top: -01rem;
+    top: -1rem;
 }
 
 .navbar .navbar__content .navbar__links li{
@@ -31,6 +31,7 @@
 .navbar .navbar__content .navbar__links a{
     padding: 1rem;
     display: inline-block;
+    
 }
 
 .navbar .navbar__content .navbar__links a:hover{
