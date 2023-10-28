@@ -1,6 +1,6 @@
 .skills{
     background-color: var(--light-tertiary-color);
-    scroll-margin-top: 15rem;
+    scroll-margin-top: 6rem;
 }
 .skills .skills__content{
     padding: 6rem 4rem;
