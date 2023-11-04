@@ -5,7 +5,7 @@
     scroll-margin-top: 10rem;
 }
 .about .about__left{
-    max-width: 40rem;
+    max-width: 30rem;
     flex: 1;
 }
 .about .about__left p{
@@ -29,7 +29,7 @@
 
 .about .about__right{
     flex: 1;
-    max-width: 66rem;
+    max-width: 80rem;
 }
 
 @media only screen and (max-width: 768px){
