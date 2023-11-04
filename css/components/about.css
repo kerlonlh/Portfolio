@@ -5,22 +5,25 @@
     scroll-margin-top: 10rem;
 }
 .about .about__left{
-    max-width: 40rem;
+    max-width: 30rem;
     flex: 1;
 }
 .about .about__left p{
-    margin: 1rem 0 2rem;
+    margin: 2rem 0 2rem;
 }
 .about .about__left ul{
     margin-left: -1.2rem;
-    
 }
 .about .about__left ul li{
     display: inline-block;
 }
 .about .about__left ul li a{
     display: inline-block;
-    padding: 1rem;
+    padding: 1rem; 
+}
+.about .about__left ul li img:hover{
+    background-color: var(--tertiary-color);
+    border-radius: 1rem;
     
 }
 .about .about__left ul li img{
@@ -29,7 +32,10 @@
 
 .about .about__right{
     flex: 1;
-    max-width: 66rem;
+    max-width: 85rem;
+}
+.about .about__right p{
+    margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px){
