@@ -15,18 +15,7 @@
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     gap: 2rem;
 }
-.skills .skills__content ul li .image-container{
-    background-color: var(--white);
-    padding: 2rem;
-    border-radius: 50%;
-    width: 7rem;
-    height: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-}
+
 .skills .skills__content ul li h3{
     font-size: 1.6rem;
     font-weight: 500rem;
