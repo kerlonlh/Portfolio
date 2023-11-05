@@ -37,6 +37,7 @@ header .header__right .header__image .kerlon{
     border-radius: 0.5rem;
     min-width: 25rem;
     max-width: 45rem;
+    width: 100%;
 }
 header .header__right .header__image .background{
     position: absolute;
