@@ -119,9 +119,13 @@ p:not(:last-of-type),
     padding: 0 2rem;
   }
 }
-
 @media only screen and (max-width: 425px) {
   h1 {
     font-size: 4.2rem;
+  }
+}
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: var(--white);
   }
 }
