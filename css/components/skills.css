@@ -1,6 +1,7 @@
 .skills{
-    background-color: var(--light-tertiary-color);
+    background-color: var(--light-cyan);
     scroll-margin-top: 6rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
 }
 .skills .skills__content{
     padding: 6rem 4rem;
@@ -13,10 +14,16 @@
 .skills .skills__content ul{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
+    gap: 3rem;
+}
+.skills .skills__content ul li{
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+    padding: 3rem 2rem 0 2rem;
+    height: 28rem;
+    border-radius: 1rem;
 }
 .skills .skills__content ul li .image-container{
-    background-color: var(--white);
+    background-color: var(--lavender);
     padding: 2rem;
     border-radius: 50%;
     width: 7rem;
@@ -24,11 +31,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
     margin: 0 auto;
 }
 .skills .skills__content ul li h3{
     font-size: 1.6rem;
     font-weight: 500rem;
     margin: 2rem 0 1rem;
+}
+@media only screen and (max-width:500px){
+    .skills .skills__content ul li{
+        box-shadow: 0 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
+        padding: 3rem 2rem 0 2rem;
+        height: 28rem;
+        border-radius: 1rem;
+    }
 }
