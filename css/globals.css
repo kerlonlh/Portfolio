@@ -22,7 +22,9 @@ ul {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--dark-orchid);
+  font-weight: 600;
+  font-size: 1.8rem;
 }
 
 h1 {

@@ -23,7 +23,7 @@
 }
 
 .navbar .navbar__content .navbar__links li:not(:last-of-type){
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .navbar .navbar__content .navbar__links a{
@@ -32,7 +32,7 @@
 }
 
 .navbar .navbar__content .navbar__links a:hover{
-    color: var(--tertiary-color);
+    color: var(--indigo);
 }
 .navbar .navbar__content .navbar__mobile,
 .navbar .navbar__content .navbar__mobile .mobile__links{
