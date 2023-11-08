@@ -35,8 +35,7 @@ h1 {
 }
 .secondary-title {
   font-size: 4rem;
-  font-weight: 700;
-  color: var(--primary-color);
+  font-weight: 900;
 }
 
 .tertiary-title {
