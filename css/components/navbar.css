@@ -5,6 +5,7 @@
     width: 100%;
     z-index: 10;
     background-color: var(--white);   
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1);
 }
 .navbar .navbar__content{
     padding: 3rem 4rem 1rem;
@@ -32,9 +33,6 @@
 
 .navbar .navbar__content .navbar__links a:hover{
     color: var(--tertiary-color);
-}
-.navbar.active{
-    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1);
 }
 .navbar .navbar__content .navbar__mobile,
 .navbar .navbar__content .navbar__mobile .mobile__links{

@@ -1,23 +1,26 @@
 header{
+    background-color: var(--color-header);
+    scroll-margin-top: 20rem;
+}
+header .header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    scroll-margin-top: 20rem;
 }
-header .header__left{
+header .header__content .header__left{
     max-width: 62rem;
     flex: 1;
 }
-header .header__left p{
+header .header__content .header__left p{
     margin-top: 2rem;
     margin-bottom: 4rem;
     max-width: 50rem;
 }
-header .header__left a:hover{
+header .header__content .header__left a:hover{
     color: var(--tertiary-color);
 }
-header .header__right .header__image{
+header .header__content .header__right .header__image{
     position: relative;
     line-height: 0;
 }

@@ -8,10 +8,14 @@
   --tertiary-color: #a6b1e1;
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
+  --lavender: #f5f4fb;
+  --dark-violet: #865cda;
+  --dark-orchid: #8b62db;
+  --indigo: #2b135a;
+  --light-cyan: #f0f7ff;
 
-  --gray-one: #D9D9D9;
-  --gray-two: #8C8C8C;
-  --gray-three: #404040;
+
+  --color-header: #f5f4fb;
 
   --sombra-primary: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
 
