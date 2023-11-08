@@ -30,7 +30,9 @@ h1 {
   font-weight: 700;
   color: var(--primary-color);
 }
-
+.cdn{
+  color: var(--dark-orchid);
+}
 .secondary-title {
   font-size: 4rem;
   font-weight: 700;
@@ -66,11 +68,15 @@ p:not(:last-of-type),
 }
 
 .btn.btn-primary {
-  background-color: var(--dark-secondary-color);
+  background-color: var(--dark-violet);
   color: var(--white);
   font-weight: 400;
   font-size: 1.4rem;
-  
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.5);
+}
+.btn.btn.btn-primary:hover{
+  background-color: var(--indigo);
+  box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, 0.8);
 }
 
 .max-width {
