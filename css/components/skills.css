@@ -1,7 +1,6 @@
 .skills{
     background-color: var(--light-cyan);
     scroll-margin-top: 6rem;
-    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
 }
 .skills .skills__content{
     padding: 6rem 4rem;

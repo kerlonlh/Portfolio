@@ -4,6 +4,10 @@
     gap: 4rem;
     scroll-margin-top: 10rem;
 }
+.about .max-width{
+    margin-bottom: 0;
+}
+
 .about .about__left{
     max-width: 30rem;
     flex: 1;
