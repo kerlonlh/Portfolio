@@ -38,15 +38,14 @@ h1 {
 .secondary-title {
   font-size: 4rem;
   font-weight: 900;
+  color: var(--dark-orchid);
 }
-
 .tertiary-title {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.5rem;
   color: var(--secondary-color);
 }
-
 p,
 .p {
   font-weight: 400;
