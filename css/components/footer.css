@@ -22,7 +22,7 @@ footer .footer__content ul li img{
 }
 footer .footer__content ul li img:hover{
     background-color: var(--dark-violet);
-    border-radius: 1rem;
+    width: 34px;
 }
 footer .footer__content .footer__copyright{
     font-size: 1.4rem;
