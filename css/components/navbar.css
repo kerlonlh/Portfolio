@@ -52,6 +52,11 @@
         height: 3.6rem;
         cursor: pointer;
     }
+    .navbar .navbar__content .navbar__mobile img:hover{
+        background-color: var(--dark-violet);
+        border-radius: 0.5rem;
+        padding: 0;
+    }
     .navbar .navbar__content .navbar__mobile.active .mobile__links{
         display: flex;
         flex-direction: column;
