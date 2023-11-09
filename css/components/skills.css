@@ -33,6 +33,10 @@
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
     margin: 0 auto;
 }
+.skills .skills__content ul li .image-container:hover{
+    width: 7.2rem;
+    height: 7.2rem;
+}
 .skills .skills__content ul li h3{
     font-size: 2rem;
     font-weight: 500rem;
