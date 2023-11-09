@@ -26,7 +26,7 @@
     padding: 1rem; 
 }
 .about .about__left ul li img:hover{
-    background-color: var(--tertiary-color);
+    background-color: var(--dark-violet);
     border-radius: 1rem;
     
 }

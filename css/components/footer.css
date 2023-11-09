@@ -21,7 +21,7 @@ footer .footer__content ul li img{
     width: 32px;
 }
 footer .footer__content ul li img:hover{
-    background-color: var(--tertiary-color);
+    background-color: var(--dark-violet);
     border-radius: 1rem;
 }
 footer .footer__content .footer__copyright{
