@@ -25,12 +25,12 @@
     display: inline-block;
     padding: 1rem; 
 }
-.about .about__left ul li img:hover{
-    background-color: var(--dark-violet);
-    border-radius: 1rem;
-}
 .about .about__left ul li img{
     width: 32px;
+}
+.about .about__left ul li img:hover{
+    width: 34px;
+    background-color: var(--dark-violet);
 }
 
 .about .about__right{

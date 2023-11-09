@@ -110,6 +110,20 @@ p:not(:last-of-type),
   margin-bottom: 6rem;
 }
 
+.linkedin:hover{
+  border-radius: 0.3rem;
+}
+.github:hover{
+  border-radius: 2rem;
+}
+.instagram:hover{
+  border-radius: 1rem;
+}
+.whatsapp:hover{
+  border-radius: 2rem 2rem 2rem 0.5rem;
+}
+
+
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 60%;
