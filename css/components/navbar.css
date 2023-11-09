@@ -33,7 +33,9 @@
 
 .navbar .navbar__content .navbar__links a:hover{
     color: var(--indigo);
+    font-size: 2rem;
 }
+
 .navbar .navbar__content .navbar__mobile,
 .navbar .navbar__content .navbar__mobile .mobile__links{
     display: none;
