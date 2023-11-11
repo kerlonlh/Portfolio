@@ -49,15 +49,21 @@
         display: flex;
         align-items: center;
     }
-    .navbar .navbar__content .navbar__mobile img{
-        width: 3.6rem;
-        height: 3.6rem;
+    .navbar .navbar__content .navbar__mobile button{
+        width: 3rem;
+        height: 3rem;
         cursor: pointer;
+        border: 0.3rem solid var(--dark-violet);
+        border-radius: 0.6rem;
+        background: transparent;
     }
-    .navbar .navbar__content .navbar__mobile img:hover{
+    .navbar .navbar__content .navbar__mobile button .linha{
+        width: 2rem;
+        height: 0.3rem;
         background-color: var(--dark-violet);
-        border-radius: 0.5rem;
-        padding: 0;
+        display: block;
+        margin: 0.4rem auto;
+        
     }
     .navbar .navbar__content .navbar__mobile.active .mobile__links{
         display: flex;
