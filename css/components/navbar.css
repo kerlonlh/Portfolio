@@ -58,7 +58,7 @@
         background: transparent;
         box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
     }
-    .navbar .navbar__content .navbar__mobile .burguer.active{
+    .navbar .navbar__content .navbar__mobile.active .burguer{
         width: 3.65rem;
         height: 3.65rem;
         cursor: pointer;
@@ -75,7 +75,7 @@
         transform-origin: center;
         border-radius: 0.1rem;
     }
-    .navbar .navbar__content .navbar__mobile .burguer.active .linha:nth-child(1){
+    .navbar .navbar__content .navbar__mobile.active .burguer .linha:nth-child(1){
         transform: translateY(0.7rem) rotate(-45deg);
         background-color: var(--indigo);
         transition: 0.3s;
@@ -84,7 +84,7 @@
         box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
 
     }
-    .navbar .navbar__content .navbar__mobile .burguer.active .linha:nth-child(3){
+    .navbar .navbar__content .navbar__mobile.active .burguer .linha:nth-child(3){
         transform: translateY(-0.7rem) rotate(45deg);
         background-color: var(--indigo);
         transition: 0.3s;
@@ -92,7 +92,7 @@
         height: 0.3rem;
         box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
     }
-    .navbar .navbar__content .navbar__mobile .burguer.active .linha:nth-child(2){
+    .navbar .navbar__content .navbar__mobile.active .burguer .linha:nth-child(2){
         width: 0;
     }
     .navbar .navbar__content .navbar__mobile.active .mobile__links{
