@@ -49,22 +49,51 @@
         display: flex;
         align-items: center;
     }
-    .navbar .navbar__content .navbar__mobile button{
+    .navbar .navbar__content .navbar__mobile .burguer{
         width: 3.6rem;
         height: 3.6rem;
         cursor: pointer;
         border: 0.3rem solid var(--dark-violet);
         border-radius: 0.6rem;
         background: transparent;
+        box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
     }
-    .navbar .navbar__content .navbar__mobile button .linha{
+    .navbar .navbar__content .navbar__mobile .burguer.active{
+        width: 3.65rem;
+        height: 3.65rem;
+        cursor: pointer;
+        border: 0.3rem solid var(--indigo);
+        box-shadow: 0 0.4rem 0.9rem rgba(0, 0, 0, 0.5);
+    }
+    .navbar .navbar__content .navbar__mobile .burguer .linha{
         width: 2rem;
         height: 0.25rem;
         background-color: var(--dark-violet);
         display: block;
-        margin: 0.5rem auto;
+        margin: 0.45rem auto;
         position: relative;
         transform-origin: center;
+        border-radius: 0.1rem;
+    }
+    .navbar .navbar__content .navbar__mobile .burguer.active .linha:nth-child(1){
+        transform: translateY(0.7rem) rotate(-45deg);
+        background-color: var(--indigo);
+        transition: 0.3s;
+        width: 2.5rem;
+        height: 0.3rem;
+        box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
+
+    }
+    .navbar .navbar__content .navbar__mobile .burguer.active .linha:nth-child(3){
+        transform: translateY(-0.7rem) rotate(45deg);
+        background-color: var(--indigo);
+        transition: 0.3s;
+        width: 2.5rem;
+        height: 0.3rem;
+        box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);
+    }
+    .navbar .navbar__content .navbar__mobile .burguer.active .linha:nth-child(2){
+        width: 0;
     }
     .navbar .navbar__content .navbar__mobile.active .mobile__links{
         display: flex;
@@ -85,6 +114,10 @@
         padding: 1rem;
         display: block;
         text-align: center;
+    }
+    .navbar .navbar__content .navbar__mobile.active .mobile__links a:hover{
+        color: var(--indigo);
+        font-size: 2rem;
     }
 
 }
