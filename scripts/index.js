@@ -3,6 +3,10 @@ const mobileNavbar = document.querySelector('.navbar__mobile');
 const mobileNavbarItems = document.querySelectorAll('.navbar__mobile a');
 const button = document.querySelector('.burguer');
 
+function animation(){
+    
+}
+
 button.addEventListener('click', function () {
     mobileNavbar.classList.toggle('active')
 })
